@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   title: data types related to a person
-  version: v2
+  version: ${project.version}
 paths: {}
 definitions:
   GenderCode:
