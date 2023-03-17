@@ -4,12 +4,12 @@ info:
   version: 2.0-beta
 paths: {}
 definitions:
-  HouseholdRelationType:
+  HouseholdRelationTypeCode:
     description: The type of relation of a household member to the household reference person, represented by a code assigned by the National Register
     type: integer
     minimum: 1
     maximum: 99
-  CivilStatusType:
+  CivilStatusTypeCode:
     description: The civil status of a person, represented by a code assigned by the National Register
     type: integer
     minimum: 1
