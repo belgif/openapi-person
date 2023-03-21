@@ -2,6 +2,9 @@ openapi: 3.0.0
 info:
   title: types related to a person that are not fully stable yet
   version: 2.0-beta
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
 servers: []
 paths: {}
 components:
