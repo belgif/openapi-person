@@ -14,4 +14,14 @@ definitions:
     - 0
     - 1
     - 2
-  # code 9 in ISO 5218 signifies "not applicable" (e.g. when the gender property is applied to a genderless object) but is omitted here as it is not expected to be used in most use cases
+    # code 9 in ISO 5218 signifies "not applicable" (e.g. when the gender property is applied to a genderless object) but is omitted here as it is not expected to be used in most use cases
+  HouseholdRelationTypeCode:
+    description: The type of relation of a household member to the household reference person, represented by a code assigned by the National Register
+    type: integer
+    minimum: 1
+    maximum: 99
+  CivilStatusTypeCode:
+    description: The civil status of a person, represented by a code assigned by the National Register
+    type: integer
+    minimum: 1
+    maximum: 99
